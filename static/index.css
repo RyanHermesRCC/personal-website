@@ -67,7 +67,7 @@ html, body {
     font-weight: 600;
     text-shadow: 0px 0px 50px #6a6a6a;
     transition: font-size 0.3s ease;
-    background: linear-gradient(to right, #21b13b, #4897ff, #328bff);
+    background: linear-gradient(to right, #21b13b, #ff4848, #ff3232);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -87,12 +87,10 @@ html, body {
 
 #contactme {
     font-weight: 600;
-    color: #4897ff;
-
+    color: #ff3232;
 }
 
 #email, #phone, #linkedin {
     margin: 5px 0;
     color: #e3e3e3
 }
-
