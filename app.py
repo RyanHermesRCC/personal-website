@@ -1,10 +1,10 @@
 from flask import Flask, render_template, Response
 
-app = Flask(__name__, static_folder='static', template_folder='templates')
+app = Flask(__name__, static_folder='static', template_folder='personalwebsite')
 
 @app.route("/")
 def home():
-    return render_template('../index.html')
+    return render_template('index.html')
 
 @app.route("/redko")
 def test():
