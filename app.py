@@ -1,6 +1,6 @@
 from flask import Flask, render_template, Response
 
-app = Flask(__name__, static_folder='static', template_folder='html')
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
 @app.route("/")
 def home():
@@ -10,5 +10,6 @@ def home():
 def test():
     return render_template('test.html')
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
