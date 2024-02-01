@@ -15,11 +15,11 @@ html, body {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    height: calc(100vh);
+    height: calc(75vh);
     margin: 0px 0px 0px 0px;
     width: 77vw;
     background-color: #000000;
-    /*/ border-radius: 30px; /*/
+    border-radius: 30px;
     transition: box-shadow 0.3s ease;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
