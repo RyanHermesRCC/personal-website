@@ -87,5 +87,9 @@ html, body {
 
 #email, #phone, #linkedin {
     margin: 5px 0;
+<<<<<<< HEAD
     color: #439bff
+=======
+    color: #e3e3e3
+>>>>>>> 7eea6de63d6b3ee011aa38dc49842aec6e5b8be8
 }
