@@ -10,6 +10,8 @@ def home():
 def test():
     return render_template('redko.html')
 
+
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
