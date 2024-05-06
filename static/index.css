@@ -2,28 +2,26 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #888888;
+    background-color: #000000;
     font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
 }
 
 #header {
     position: absolute;
-    top: 50px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    height: calc(75vh);
-    margin: 0px 0px 0px 0px;
-    width: 77vw;
+    height: 100%;
+    margin: 0;
+    width: 100%;
     background-color: #000000;
     border-radius: 30px;
     transition: box-shadow 0.3s ease;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-
-    background: linear-gradient(to right, #000000, 75%, #00000052),url("fintech.jpg");
+    background: linear-gradient(to right, #000000, 60%, #00000052),url("fintech.jpg");
     background-size: 1624px 904px;
     background-repeat: no-repeat;
     background-position: right 80% bottom 0%;
@@ -32,7 +30,6 @@ html, body {
 #name {
     text-align: left;
     font-size: 60px;
-    
     margin-left: 150px;
     padding: 10px;
     border-radius: 3px;
@@ -55,19 +52,17 @@ html, body {
     font-weight: 300;
     margin-left: 150px;
     color: #e3e3e3;
-    
     margin-bottom: 0px;
     padding: 10px;
     border-radius: 3px;
     margin-top: -20px;
-    
 }
 
 #fintech {
     font-weight: 600;
     text-shadow: 0px 0px 50px #6a6a6a;
     transition: font-size 0.3s ease;
-    background: linear-gradient(to right, #21b13b, #4897ff, #328bff);
+    background: linear-gradient(to right, #21b13b, #48aaff, #48aaff);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -87,12 +82,10 @@ html, body {
 
 #contactme {
     font-weight: 600;
-    color: #4897ff;
-
+    color: #e3e3e3;
 }
 
-#email, #phone {
+#email, #phone, #linkedin {
     margin: 5px 0;
-    color: #e3e3e3
+    color: #6fb2ff
 }
-

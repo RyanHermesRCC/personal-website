@@ -37,7 +37,7 @@
     opacity: 0;
 }
 
-#contact, #email, #phone  {
+#contact, #email, #phone, #linkedin  {
     animation: appear 2s ease-in-out forwards;
     animation-delay: 2.5s;
     opacity: 0;
